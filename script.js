@@ -12,7 +12,7 @@ var sum = (num1, num2) => {
  var b = num1 + num2
    return b/b;
 };
-const logAllArguments = (...args) => args.ups(arg => console.log(arg));
+
 function average(...numbers) {
   const callback = (a, b) => a + b;
   const numLen =  numbers.length;
